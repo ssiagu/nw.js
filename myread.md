@@ -20,7 +20,8 @@ Node-WebKit能把你的HTML5应用打包成本地桌面应用，在Windows、Lin
 ./nw app.nw
 在Windows平台上你可以直接把你的app.nw拖拽到 nw.exe 程序上就行了。
 
-6.想让你的应用更容易传播和发布，可以将它和node-webkit封装到一起，也就是将你的HTML5应用 app.nw 和 nw.exe 合成一个可执行文件。在Linux上的做法是
+6.想让你的应用更容易传播和发布，可以将它和node-webkit封装到一起，也就是将你的HTML5应用 app.nw 和 nw.exe 合成一个可执行文件。
+在Linux上的做法是
 cat /usr/bin/nw app.nw > app && chmod +x app
 在Window上的做法是
 
