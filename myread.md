@@ -5,7 +5,7 @@ Node-WebKit能把你的HTML5应用打包成本地桌面应用，在Windows、Lin
 它支持Node.js。你可以使用Node.js的所有模块来开发你喜欢的app或游戏。不仅你可以使用Node.js原生的模块，而且可以使用第三方的node.js模块。
 如何使用Node-Webkit开发HTML5本地桌面应用
 这非常简单，像传统的开发你的HTML5应用一样开发它们，完成之后用Node-Webkit打包它。打包的方法是
-
+```
 1.先下载Node-Webkit
 2.然后创建一个包文件命名为package.json, 写入下面的代码：
 {
@@ -25,3 +25,4 @@ cat /usr/bin/nw app.nw > app && chmod +x app
 在Window上的做法是
 
 copy /b nw.exe+app.nw app.exe
+```
